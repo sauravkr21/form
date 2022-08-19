@@ -1,0 +1,72 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.main{
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./incentives_images/incentives-background-image.jpg);
+    display: flex;
+    background-size: cover;
+}
+
+.container{
+	height:auto;
+	width: 100%;
+	font-size: 20px;
+	/* font-weight: bolder; */
+}
+
+ul{
+	list-style: none;
+	height: 760px;
+	width: 300px;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: black;
+	box-shadow: 2px 0px 5px yellow;
+}
+
+ul li{
+	margin: 5px;
+	padding: 5px;
+	margin-top: 30px;
+}
+
+ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 40px;
+}
+
+ul li a:hover{
+	color: yellow;
+	text-decoration: none;
+}
+
+.content{
+	margin-left: 200px;
+	color: white;
+	margin-top: 50px;
+}
+
+.content p{
+	margin-top: 40px;
+	font-weight: bolder;
+}
+
+img{
+	height: 30px;
+	width: 30px;
+}
+
+.img1 img{
+	height: 30px;
+	width: 30px;
+	margin: 10px;
+}
+
+

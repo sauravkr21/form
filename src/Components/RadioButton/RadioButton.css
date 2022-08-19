@@ -1,0 +1,98 @@
+.WrapperRadioButton{
+/* Checkbox/Default */
+position: relative;
+display: block;
+top:0.5rem;
+}
+.radio-box-container{
+   display: block;
+  position: relative;
+  padding-top: 1.75rem;
+  left: 1.75rem;
+  margin-bottom: 1rem;
+}
+.radioLabel {
+   
+    position: absolute;
+    width: max-content;
+    max-width: 20rem;
+    height: 1.25rem;
+    left: 2.5rem;
+    top: calc(50% - 1.25rem/2);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.938rem;
+    line-height: 1.25rem;
+    color: #2B2B2B;
+    letter-spacing: -0.023rem;
+
+}
+
+.opacity0 {
+    position: absolute;
+    opacity: 0;
+}
+
+.default-radio-button:disabled ~ .radioLabel {
+    /* Black/80 */
+    color: #828282;
+}
+
+.default-radio-button {
+    opacity: 0;
+    height: 0;
+    width: 0;
+}
+
+.radioBox {
+    position: absolute;
+    left: 0%;
+    right: 69.57%;
+    top: 0%;
+    bottom: 0%;
+
+}
+
+.radioIcon {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1.75rem;
+    height: 1.75rem;
+    left: 0rem;
+    top: calc(50% - 1.75rem/2);
+    background: #FFFFFF;
+    border: 0.063rem solid #AEAEAE;
+    border-radius: 0.875rem;
+}
+
+.default-radio-button:disabled + .radioIcon{
+    background: #C3C3C3;
+    border-radius: 0.875rem;
+}
+.default-radio-button:checked ~ .radioIcon {
+
+box-sizing: border-box;
+
+position: absolute;
+width: 1.75rem;
+height: 1.75rem;
+left: 0rem;
+top: calc(50% - 1.75rem/2);
+
+/* Secondary/100 */
+
+border: 0.125rem solid #009ACF;
+border-radius: 0.875rem;
+}
+
+.default-radio-button:checked ~ .radioIcon-inner{
+    position: absolute;
+width: 1.125rem;
+height: 1.125rem;
+left: 0.313rem;
+top: calc(50% - 1.125rem/2);
+
+background: #009ACF;
+border-radius: 0.875rem;
+}

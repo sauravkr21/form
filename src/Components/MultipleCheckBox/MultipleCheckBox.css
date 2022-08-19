@@ -1,0 +1,120 @@
+.check-box-container{
+    display: block;
+  position: relative;
+  padding-top: 1.75rem;
+  left: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.label-text {
+    position: absolute;
+    height: 1.25rem;
+    /*width*/
+    left: 2.5rem;
+    top: calc(50% - 1.25rem/2);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.938rem;
+    line-height: 1.25rem;
+    color: #2B2B2B;
+    /* identical to box height, or 133% */
+    letter-spacing: -0.023rem;
+}
+
+.defualt-checkbox:disabled~.label-text {
+    color: #828282;
+}
+
+.defualt-checkbox {
+    position: absolute;
+    opacity: 0;
+    /* cursor: pointer; */
+}
+
+.wrapperCheckBox {
+    /* Checkbox/Default */
+    display: block;
+  position: relative;
+  padding-top: 1.75rem;
+  left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.box {
+    position: absolute;
+    left: 0%;
+    right: 69.57%;
+    top: 0%;
+    bottom: 0%;
+
+}
+
+.outer-rect {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1.75rem;
+    height: 1.75rem;
+    left: 0rem;
+    top: calc(50% - 1.75rem/2);
+    background: #FFFFFF;
+    /* Black/20 */
+    border: 0.063rem solid #AEAEAE;
+    border-radius: 0.25rem;
+}
+
+.defualt-checkbox:checked+.outer-rect {
+    background: #43358D;
+    border-radius: 0.25rem;
+    border: 0.063rem solid #43358D;
+}
+
+.defualt-checkbox:disabled+.outer-rect {
+    /* Black/10 */
+
+    background: #C3C3C3;
+    border-radius: 0.25rem;
+}
+.defualt-checkbox:checked ~ .check-vector-div1{
+    visibility:visible;
+}
+
+.check-vector-div1 {
+    position: absolute;
+    width: 1.5rem;
+    height: 1.3rem;
+    left: 0.125rem;
+    top: 0.0rem;
+    visibility: hidden;
+}
+
+.check-vector-div2 {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+}
+
+.check-vector-div3 {
+    /* Vector */
+    position: absolute;
+    left: 15.15%;
+    right: 14.14%;
+    top: 24.91%;
+    bottom: 25%;
+    /* White */
+   border: solid white;
+    border-width: 0 0px 0.17rem 0.17rem;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.dummy111 {
+    top: 20px;
+    position: absolute;
+    height: 20px;
+    
+}
